@@ -1,6 +1,4 @@
 import React from "react";
-import { HiOutlineMail } from "react-icons/hi";
-import { IoMdHeartEmpty } from "react-icons/io";
 import { FaFacebookF, FaYoutube, FaInstagram, FaLocationDot, FaVoicemail, FaPhone } from "react-icons/fa6";
 
 
@@ -36,7 +34,7 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="contact bg-gray-200 py-10 mt-20 md:px-20 px-3 text-gray-600">
+        <footer className="contact bg-gray-200 md:py-10 py-3 mt-20 md:px-20 px-3 text-gray-600">
             <div className="flex flex-col md:flex-row items-start justify-between gap-10 md:gap-28 md:py-10 py-5">
                 {/* Column 1 */}
                 <section className="md:w-1/3 w-full space-y-5 md:space-y-10">

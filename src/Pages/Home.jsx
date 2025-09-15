@@ -11,7 +11,7 @@ const Home = () => {
         style={{ backgroundImage: `url(${herobg})` }}
       >
         {/* Hero Text Section */}
-        <header data-aos="fade-up" className='md:w-1/3 w-full md:space-y-5 space-y-3'>
+        <header data-aos="fade-up" className='md:w-1/3 md:text-left text-center w-full md:space-y-5 space-y-3'>
           <p className=' font-semibold'>BUS YOUR TRAVEL JOURNEY</p>
           <h1 className=' md:text-6xl text-3xl font-semibold md:leading-20'>
             Where Every Bus Ride Feels Magical!
